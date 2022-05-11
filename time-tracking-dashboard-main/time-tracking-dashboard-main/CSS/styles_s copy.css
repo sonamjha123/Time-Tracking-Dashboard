@@ -1,0 +1,134 @@
+body{
+    background-color: hsl(226, 43%, 10%); 
+}
+.container{
+    
+    font-family: 'Rubik', sans-serif;
+    color: white;
+
+
+}
+/* .col{
+    border-radius:10px;
+    border-style:solid;
+    border-width: 0px;
+} */
+h6.smallheadings{
+    margin-top: 30px; 
+}
+.smallheadings{
+    color: white;
+    font-weight: 200;
+   
+
+}
+.workicon{
+    /* @include bg-size-card-mobile; */
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    overflow: hidden;
+    padding-top: 0px;
+}
+
+
+    .workicon img {
+      
+      max-width: 7.8rem;
+      float: right;
+    }
+  
+
+.content{
+    background-color:  hsl(235, 46%, 20%);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.rem;
+    border-bottom-right-radius: 1.5rem;
+    padding: 2.8rem 2.4rem;
+    border: 0.1rem solid hsl(235, 46%, 20%);
+}
+    .content:hover {
+      cursor: pointer;
+      background-color: hsla(236, 41%, 34%, 1);;
+      border-color: hsla(236, 41%, 34%, 1);;
+}
+.profile_img{
+    border:2px solid white;
+    border-radius: 100px;
+    -webkit-border-radius: 300px;
+    width: 50%;
+    height: 50%;
+}
+.img
+{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+    border-radius:10px;
+    
+    /* padding: 25px 0px 75px 20px; */
+    background-color:  hsl(235, 45%, 61%)
+}
+.layoutrow1
+{
+    border-radius:10px;
+    text-align: left;
+    padding: 0px;
+    height: 200px;
+    width: 300px;
+    margin:20px;
+    }
+.layoutrow2
+{
+    border-radius:10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 40px;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    }
+.work
+{
+    background-color:  hsl(15, 100%, 70%); 
+    
+    
+}
+.play
+{
+    background-color: hsl(195, 74%, 62%);
+}
+.study{
+    background-color:hsl(348, 100%, 68%)
+}
+.trackview{
+   background-color:  hsl(235, 46%, 20%);
+   border-radius:10px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 150px;
+    padding-right:5px;
+    display: block;
+    
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+}
+
+.selfcare{
+   background-color:  hsl(43, 84%, 65%);
+
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
